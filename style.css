@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+     background-color: #f1f1f1;
+     color: #0f141e;
+     
+     font-size: 16px;
+     font-weight:normal;
+     font-family:'Courier New', Courier, monospace;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.container > h1 {
+    text-align: center;
+}
+.header {
+    display: flex;
+}
+
+.target h2, .time h2, .course h2, .contact h2{
+    text-align: center;
+}
+
+.time {
+    background: rgb(255, 215, 215);
+    padding: 5px 0 20px 0;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+.week {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+.week li {
+    list-style-type: none;
+}
+.left, .right {
+    display: inline-block;
+    margin: 2px;
+    margin: auto;
+}
+
+img {
+    width: 200px;
+    height: 220px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+.target {
+    background: rgb(212, 255, 212);
+    padding: 5px 0 20px 0;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+.course {
+    background: rgb(255, 255, 212);
+    padding: 5px 0 20px 0;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+
+}
+
+.contact {
+    background: rgb(255, 212, 212);
+    padding: 5px 0 20px 0;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+
+.social a {
+    display: block;
+    width: 25%;
+    text-align: center;
+}
+.social {
+    display: flex;
+}
+
+.info {
+    margin-left: 15px;
+}
+.course-table {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.caps {
+    width: 70%;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+hr {
+    width: 70%;
+}
